@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagen{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    margin: 20px 0px 10px 10px;
+}
+
+.imagen-elementos{
+    width:300px;
+}
