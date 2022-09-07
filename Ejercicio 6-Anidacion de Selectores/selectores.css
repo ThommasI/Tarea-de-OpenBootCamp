@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.button{
+    height:100vh;
+    position:relative;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.button_1{
+    padding:50px 200px;
+    border-radius:50px;
+}
+
+.button_1::before{
+    content:"Pasa por encima" ;
+    text-align:center;
+    font-size:20pt;
+}
+
+.button_1:hover::before{
+    content:"¡Bien Hecho!";
+    border-color:white;
+    font-size:20pt;
+    text-align:center;
+
+}
+
+.button_1:hover{
+    background-color: green;
+    padding:50px 224px;
+    border-radius:50px;
+}
+
